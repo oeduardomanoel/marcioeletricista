@@ -430,10 +430,11 @@ a:focus:not(:focus-visible) {
 }
 
 .hero-title {
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2rem, 8vw, 4rem);
   color: var(--color-on-primary);
   margin-bottom: var(--space-md);
   letter-spacing: -0.05em;
+  line-height: 1.1;
 }
 
 .hero-title .highlight {
@@ -1019,11 +1020,25 @@ a:focus:not(:focus-visible) {
 
   .hero-actions, .cta-buttons {
     flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions a, .cta-buttons a {
+    width: 100%;
+    justify-content: center;
   }
   
   .hero-stats {
     flex-direction: column;
     gap: var(--space-md);
+  }
+
+  .hero-image-wrapper img {
+    aspect-ratio: 1 / 1;
+  }
+
+  .area-wrapper {
+    padding: var(--space-lg);
   }
 
   .floating-card {
