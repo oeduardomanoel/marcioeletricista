@@ -1,0 +1,10 @@
+# Ignorar pastas de sistema e agentes locais
+.gemini/
+.agents/
+
+# Ignorar ficheiros de documentação e rascunhos
+*.md
+*.txt
+
+# Garantir que ignoramos o design system gerado localmente (se aplicável)
+design-system/
