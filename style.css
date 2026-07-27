@@ -980,7 +980,6 @@ a:focus:not(:focus-visible) {
   
   .hero-visual {
     justify-content: center;
-    order: -1;
   }
 
   .hero-actions, .hero-stats {
